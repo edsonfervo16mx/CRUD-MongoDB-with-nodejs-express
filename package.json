@@ -1,0 +1,24 @@
+{
+  "name": "crud-mongodb",
+  "version": "1.0.0",
+  "description": "CRUD-MONGODB-WITH-NODEJS-EXPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CRUD",
+    "nodejs",
+    "express",
+    "javascript",
+    "database",
+    "mongodb",
+    "webdev"
+  ],
+  "author": "edsonfer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta.12"
+  }
+}

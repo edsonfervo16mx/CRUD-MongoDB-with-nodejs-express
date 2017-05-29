@@ -1,0 +1,20 @@
+extends ./layout.pug
+block container
+	div(class="container")
+		h1 Taskr
+		small Gestor de Tareas Laborales
+		hr
+		div(class="row")
+			div(class="col-lg-8 col-lg-offset-2")
+				ul(class="list-group")
+					a(href="profile/1" class="list-group-item").
+						#[span(class="badge") 5] Sucursal Central
+					a(href="profile/2" class="list-group-item").
+							#[span(class="badge") 2] Sucursal Norte
+					a(href="profile/3" class="list-group-item").
+							#[span(class="badge") 1] Sucursal Sur
+					a(href="profile/4" class="list-group-item").
+							#[span(class="badge") 6] Sucursal Este
+					a(href="profile/5" class="list-group-item").
+							#[span(class="badge") 12] Sucursal Oeste
+
